@@ -1,5 +1,5 @@
 body {
-  background-color: blanchedalmond;
+  background-color: black;
 }
 #myCanvas {
   /* width: 1000px;
@@ -9,6 +9,6 @@ body {
   background-image: url(images/bg.png);
   background-repeat: no-repeat;
   background-size: contain;
-  border: 20px solid green;
+  border: 20px pink;
   background-size: cover;
 }
