@@ -9,13 +9,13 @@ function init() {
     gameOver=false;
     score=0;
     food_img= new Image();
-    food_img.src="images/apple.png";
+    food_img.src="images/grape.png";
     trophy = new Image();
     trophy.src= "images/trophy.png";
     food= getRandomFood();
     snake={
        init_len: 1,
-       color: "blue",
+       color: "white",
        cells:[],
        direction: "right",
        createSnake:function(){
@@ -89,7 +89,7 @@ function draw() {
     pen.fillStyle= food.color;
     pen.drawImage(food_img,food.x*cs,food.y*cs,cs,cs);
     pen.drawImage(trophy,18,20,cs,cs);
-    pen.fillStyle="blue";
+    pen.fillStyle="black";
     pen.font ="20px Roboto";
     pen.fillText(score,30,40);
 
