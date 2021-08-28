@@ -1,4 +1,4 @@
-# Snake-Game
+# Snake_Game
 <ul>
 <li>A Snake Game using HTML, CSS and JavaScript</li>
 <li>Implemented object-oriented concepts</li>
